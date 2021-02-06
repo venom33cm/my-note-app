@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navbar{
+    background-color: rgb(56, 49, 49);
+    
+}
+.header{
+    align-items: center;
+    font-weight: bold;
+    
+}
+/* .logo {
+    background-color: aliceblue;
+} */
+.logo{
+    margin-right: 330px;
+}
+/* .notes{
+    position: relative;
+} */
+.add{
+    position:absolute;
+    right:5%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 9px;
+    border-radius: 23px;
+    box-shadow: 0 0px 0 4px orange;
+    background-color: rgb(236, 49, 49);
+    
+
+}
+.addnote{
+    height:30px;
+}
+.add:hover{
+    box-shadow: 0 3px 0 4px orange;
+    background-color: rgb(240, 191, 29);
+    font-size: 1.3rem;
+}
+.container{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.note{
+    position: relative;
+    width: 230px;
+    height: 170px;
+    margin:12px;
+    /* border:1px solid black; */
+    border-radius: 23px;
+    box-shadow: 0px 0px 4px 0px rgb(59, 58, 58) ;
+    background-color: white;
+    padding-left: 12px;
+
+}
+textarea{
+    overflow-y: scroll;
+    height: 113px;
+    width: 212px;
+    background: none;
+    outline:none;
+    border:none;
+    text-align: justify;
+    /* display:none; */
+}
+.logos{
+    height: 26px;
+}
+.logos ul{
+    position: absolute;
+    right: 5%;
+}
+.logos ul li{
+    list-style: none;
+    padding: 5px;
+    
+}
+
+ .fa-edit:hover{
+    color: black !important;
+
+}
+.fa-trash:hover{
+    color: black !important;
+} 
+.hidden{
+    display: none;
+}
+
+.note .main{
+    height: 113px;
+    width: 212px;
+
+}
+
+@media (max-width:900px){
+    .logo{
+        margin:10px;
+        margin-right: 75px;
+    }
+    body{
+        overflow: hidden;
+    }
+    .head{
+        font-size: 1.3rem !important;
+        /* line-height: 60px; */
+        text-align: center;
+    }
+    .logo .fa-5x{
+        font-size: 8.5vw !important;
+        /* line-height: 100px !important; */
+    }
+    /* .navbar{
+        height: 19.5vw;
+    } */
+    .add{
+        position:absolute;
+        right:10%;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        padding: 9px;
+        border-radius: 23px;
+        box-shadow: 0 0px 0 4px orange;
+        background-color: rgb(236, 49, 49);
+        
+    
+    }
+
+}
